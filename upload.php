@@ -83,25 +83,25 @@ if (isset($_POST["subir"]))
 					else
 					{
 						// De lo contrario mostramos un error
-						echo "Error al subir el archivo 4";
+						echo "Error al subir el archivo";
 					}      
 				}
 				else
 				{
 					// Si el archivo no esta permitido
-					echo "Archivo no permitido 1";
+					echo "Archivo no permitido";
 				}
 			}
 			else
 			{
 				// si el tipo de archivo no esta permitido
-				echo "Error al subir el archivo 2";
+				echo "Error al subir el archivo";
 			}
 		}
 		else
 		{
 			// si el mimetype no esta permitido
-			echo "Error al subir el archivo 3";
+			echo "Error al subir el archivo";
 		}
 	}
 }
